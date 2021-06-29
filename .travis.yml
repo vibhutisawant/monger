@@ -15,10 +15,7 @@ before_script:
   - mongod --version
   - ./bin/ci/before_script.sh
 script: lein do clean, javac, test
-jdk:
-  - openjdk10
-  - oraclejdk11
-  - openjdk12
+jdk: openjdk10
 services:
   - mongodb
 branches:
