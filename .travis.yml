@@ -1,6 +1,6 @@
 arch: s390x
 language: clojure
-sudo: required
+
 lein: lein
 dist: xenial
 
