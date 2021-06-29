@@ -2,7 +2,7 @@ arch: s390x
 language: clojure
 
 lein: lein
-dist: xenial
+dist: bionic
 
 before_script:
   # Give MongoDB server some time to boot
