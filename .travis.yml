@@ -3,6 +3,7 @@ language: clojure
 sudo: required
 lein: lein
 dist: xenial
+
 before_script:
   # Give MongoDB server some time to boot
   - sleep 15
